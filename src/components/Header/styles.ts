@@ -1,7 +1,9 @@
 import styled from 'styled-components'
+import { navbarHeight } from '../../styles/variables'
 
 const HeaderContainer = styled.header`
   padding: 32px 0;
+  height: ${navbarHeight};
 
   nav {
     display: flex;
